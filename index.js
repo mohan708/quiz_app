@@ -100,10 +100,13 @@ const getAnswer = () => {
 }
 
 const reset =()=>{
+    
     optionInput.forEach(  
      
     
         (input) => {
+
+
            input.checked=false;
             
         }
